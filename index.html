@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -30,20 +29,26 @@
   <body>
     <main>
       <div class="card">
-        <div class="card__image-container">
+        <img
+          class="card__image"
+          alt="abstract illustration image"
+          src="./assets/images/illustration-article.svg"
+        />
+
+        <h2 class="card__heading">Learning</h2>
+        <p class="card__paragraph">Published 21 Dec 2023</p>
+        <h1 class="card__main_heading">HTML & CSS foundations</h1>
+        <p class="card__description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="card__author">
           <img
-            class="card__image"
-            alt="abstract illustration image"
-            src="./assets/images/illustration-article.svg"
-          />
+            class="card__author_photo"
+            alt="Greg Hooper avatar"
+            src="./assets/images/image-avatar.webp"
+          /><span class="card__author_name">Greg Hooper</span>
         </div>
-        <h2>Learning</h2> <p>Published 21 Dec 2023</h2> <h1></h1>HTML & CSS foundations</h1> <p>These languages
-        are the backbone of every website, defining structure, content, and
-        presentation.</p> <div><img
-          class="card__photo"
-          alt="Greg Hooper avatar"
-          src="./assets/images/image-avatar.webp"
-        />Greg Hooper</div>
       </div>
     </main>
 
@@ -52,7 +57,8 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://github.com/DawidPiecha" target="_blank">DawidPiecha</a>
       </div>
     </footer>
   </body>
